@@ -8,3 +8,5 @@ NestJS Course 2024
 
 #### Official NestJS documentation:
 https://docs.nestjs.com/
+
+# [Module 1. The Basics of Nest](https://github.com/yaskutsWeb/nestjs-course/blob/master/source/module%201/Module%201.md)
