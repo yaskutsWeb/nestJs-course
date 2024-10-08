@@ -1,55 +1,39 @@
-# Module 1. The Basics of Nest
-## 1. Project Setup
-- [Video](https://youtu.be/c-b3E0vpaqY)
+# Module 2. Generating Projects with the Nest CLI
+## 1. App Setup
+- [Video](https://youtu.be/ojtv8yyGcNA)
 
-#### Source code: [Project Setup](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/1.%20Project%20Setup)
+#### Source code: [App Setup](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%202/1.%20App%20Setup)
 
 #### Study Materials
 - Nest CLI Overview: https://docs.nestjs.com/cli/overview
+- Nest CLI Workspaces: https://docs.nestjs.com/cli/monorepo
+- Nest CLI Libraries: https://docs.nestjs.com/cli/libraries
+- Nest CLI Usage: https://docs.nestjs.com/cli/usages
+- Nest CLI Scripts: https://docs.nestjs.com/cli/scripts
 
-## 2. TypeScript Configuration
-- [Video](https://youtu.be/nxT9K29lmqc)
+## 2. Using the Nest CLI to Generate Files
+- [Video](https://youtu.be/R4oqapb9UhE)
 
-#### Source code: [TypeScript Configuration](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/2.%20TypeScript%20Configuration)
-
-#### Study Materials
-- @nestjs/platform-express: https://www.npmjs.com/package/@nestjs/platform-express
-- @nestjs/core: https://www.npmjs.com/package/@nestjs/core
-- @nestjs/common: https://www.npmjs.com/package/@nestjs/common
-- reflect-metadata: https://www.npmjs.com/package/reflect-metadata
-
-## 3. Creating a Controller
-- [Video](https://youtu.be/8PeGLoz06KQ)
-  
-#### Source code: [Creating a Controller](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/3.%20Creating%20a%20Controller/scratch)
-
-#### Study Materials
-- Controllers: https://docs.nestjs.com/controllers
-
-## 4. Starting Up a Nest App
-- [Video](https://youtu.be/B_iPslCnRg0)
-
-#### Source code: [Starting Up a Nest App](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/4.%20Starting%20Up%20a%20Nest%20App/scratch)
+#### Source code: [Using the Nest CLI to Generate Files](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%202/2.%20Using%20the%20Nest%20CLI%20to%20Generate%20Files)
 
 #### Study Materials
 - Modules: https://docs.nestjs.com/modules
-- NestFactory: https://koko8624.medium.com/nestjs-deep-dive-01-nestfactory-4a35d6e3b847
 
-## 5. File Naming Conventions
-- [Video](https://youtu.be/ywYugmAoMV8)
+## 3. More on Generating Files
+- [Video](https://youtu.be/3Eu-2y1moYE)
+  
+#### Source code: [More on Generating Files](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%202/3.%20More%20on%20Generating%20Files)
 
-#### Source code: [File Naming Conventions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/5.%20File%20Naming%20Conventions/scratch)
+## 4. Adding Routing Logic
+- [Video](https://youtu.be/r4M3h1VEmRI)
 
-## 6. Routing Decorators
-- [Video](https://youtu.be/CIwp1_aKQj0)
-
-#### Source code: [Routing Decorators](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/6.%20Routing%20Decorators/scratch)
+#### Source code: [Adding Routing Logic](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%202/4.%20Adding%20Routing%20Logic)
 
 #### Study Materials
-- Popular Decorators used in nestJS: https://medium.com/@developerwhoismean/nestjs-episode-3-popular-decorators-used-in-nestjs-193ac8852598
+- Nest Controllers Routing: https://docs.nestjs.com/controllers#routing
 
 
 ##
-#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%202)
+#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%203/Module%203.md)
 #### [Return to contents](https://github.com/yaskutsWeb/nestJs-course/tree/master)
 ##
