@@ -18,64 +18,38 @@
 - @nestjs/common: https://www.npmjs.com/package/@nestjs/common
 - reflect-metadata: https://www.npmjs.com/package/reflect-metadata
 
-## 3. Software installations
-- [Video](https://www.youtube.com/watch?v=5mo113eTqhs&ab_channel=kamaz.v8)
+## 3. Creating a Controller
+- [Video](https://youtu.be/8PeGLoz06KQ)
+  
+#### Source code: [Creating a Controller](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/3.%20Creating%20a%20Controller/scratch)
 
 #### Study Materials
-- NodeJs download link: https://nodejs.org/
-- Git download link: https://git-scm.com/downloads
+- Controllers: https://docs.nestjs.com/controllers
 
-## 4. Understanding basic concepts
-- [Video](https://www.youtube.com/watch?v=VIRC0Th1r6c&ab_channel=kamaz.v8)
+## 4. Starting Up a Nest App
+- [Video](https://youtu.be/B_iPslCnRg0)
 
-#### Study Materials
-- Webpack Concepts: https://webpack.js.org/concepts/
-- Webpack High Level Overview: https://medium.com/@steves0089/what-is-webpack-high-level-overview-6e0733b3208e
-
-## 5. Basic HTML Javascript Setup
-- [Video](https://youtu.be/zGW7uZ26ZB4)
-
-#### Source code: [Basic HTML Javascript Setup](https://github.com/yaskutsWeb/webpack-course/tree/master/source/module%201/1.%20Basic%20HTML%20Javascript%20Setup%20%5Blesson%205%5D)
-
-## 6. Adding webpack configuration
-- [Video](https://youtu.be/W7PiiiiM6cc)
-
-#### Source code: [Adding webpack configuration](https://github.com/yaskutsWeb/webpack-course/tree/master/source/module%201/2.%20Adding%20webpack%20configuration%20%5Blesson%206%5D)
+#### Source code: [Starting Up a Nest App](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/4.%20Starting%20Up%20a%20Nest%20App/scratch)
 
 #### Study Materials
-- Webpack Entry Points: https://webpack.js.org/concepts/entry-points/
-- Webpack Output: https://webpack.js.org/concepts/output/
-- Webpack Configuration: https://webpack.js.org/concepts/configuration/#introductory-configuration
+- Modules: https://docs.nestjs.com/modules
+- NestFactory: https://koko8624.medium.com/nestjs-deep-dive-01-nestfactory-4a35d6e3b847
 
-## 7. Fixing our button click
-- [Video](https://youtu.be/XzMdjlO6zeU)
+## 5. File Naming Conventions
+- [Video](https://youtu.be/ywYugmAoMV8)
 
-#### Source code: [Fixing our button click](https://github.com/yaskutsWeb/webpack-course/tree/master/source/module%201/3.%20Fixing%20our%20button%20click%20%5Blesson%207%5D)
+#### Source code: [File Naming Conventions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/5.%20File%20Naming%20Conventions/scratch)
 
-#### Study Materials
-- JS Closure & IIFE (metanit): https://metanit.com/web/javascript/3.3.php
-- JS Closure (learnJavascript): https://learn.javascript.ru/closure
+## 6. Routing Decorators
+- [Video](https://youtu.be/CIwp1_aKQj0)
 
-## 8. CommonJS Modules
-- [Video](https://youtu.be/gwzjyGhVMAo)
-
-#### Source code: [CommonJS modules](https://github.com/yaskutsWeb/webpack-course/tree/master/source/module%201/4.%20CommonJS%20modules%20%5Blesson%208%5D)
+#### Source code: [Routing Decorators](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/6.%20Routing%20Decorators/scratch)
 
 #### Study Materials
-- What is commonJS: https://medium.com/@cgcrutch18/commonjs-what-why-and-how-64ed9f31aa46
-
-## 9.  ES6 Modules
-- [Video](https://youtu.be/FCYVs9aS-Bg)
-
-#### Source code: [ES6 Modules](https://github.com/yaskutsWeb/webpack-course/tree/master/source/module%201/5.%20ES6%20Modules%20%5Blesson%209%5D)
-
-#### Study Materials
-- What is ES6 Modules: https://learn.javascript.ru/modules
-- CommonJS Modules vs ES6 Modules: https://blog.logrocket.com/commonjs-vs-es-modules-node-js/
-- Difference between NPM and NPX: https://www.codingninjas.com/studio/library/difference-between-npm-and-npx
+- Popular Decorators used in nestJS: https://medium.com/@developerwhoismean/nestjs-episode-3-popular-decorators-used-in-nestjs-193ac8852598
 
 
 ##
-#### [Next Module](https://github.com/yaskutsWeb/webpack-course/blob/master/source/module%202/Module%202.md)
-#### [Return to contents](https://github.com/yaskutsWeb/webpack-course)
+#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%202)
+#### [Return to contents](https://github.com/yaskutsWeb/nestJs-course/tree/master)
 ##
