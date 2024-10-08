@@ -10,3 +10,5 @@ NestJS Course 2024
 https://docs.nestjs.com/
 
 # [Module 1. The Basics of Nest](https://github.com/yaskutsWeb/nestjs-course/blob/master/source/module%201/Module%201.md)
+
+# [Module 2. Generating Projects with the Nest CLI](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%202/Module%202.md)
