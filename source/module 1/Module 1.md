@@ -2,7 +2,7 @@
 ## 1. Project Setup
 - [Video](https://youtu.be/c-b3E0vpaqY)
 
-#### Source code: [Project Setup](https://github.com/yaskutsWeb/nestjs-course/tree/master/source/module%201/1.%20Project%20Setup%20)
+#### Source code: [Project Setup](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/1.%20Project%20Setup)
 
 #### Study Materials
 - Nest CLI Overview: https://docs.nestjs.com/cli/overview
