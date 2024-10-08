@@ -10,7 +10,7 @@
 ## 2. TypeScript Configuration
 - [Video](https://youtu.be/nxT9K29lmqc)
 
-#### Source code: [Project Setup](https://github.com/yaskutsWeb/nestjs-course/tree/master/source/module%201/2.%20TypeScript%20Configuration%20)
+#### Source code: [TypeScript Configuration](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/2.%20TypeScript%20Configuration)
 
 #### Study Materials
 - @nestjs/platform-express: https://www.npmjs.com/package/@nestjs/platform-express
