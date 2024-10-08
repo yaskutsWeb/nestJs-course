@@ -7,13 +7,16 @@
 #### Study Materials
 - Nest CLI Overview: https://docs.nestjs.com/cli/overview
 
-## 2. What is webpack
-- [Video](https://www.youtube.com/watch?v=4pSsmv7KdaQ&ab_channel=kamaz.v8)
+## 2. TypeScript Configuration
+- [Video](https://youtu.be/nxT9K29lmqc)
+
+#### Source code: [Project Setup](https://github.com/yaskutsWeb/nestjs-course/tree/master/source/module%201/2.%20TypeScript%20Configuration%20)
 
 #### Study Materials
-- Why webpack: https://webpack.js.org/concepts/why-webpack/
-- Advantages of webpack: https://www.geeksforgeeks.org/what-are-the-advantages-of-using-webpack/
-- When to use and why: https://andrewray.me/blog/webpack-when-to-use-and-why
+- @nestjs/platform-express: https://www.npmjs.com/package/@nestjs/platform-express
+- @nestjs/core: https://www.npmjs.com/package/@nestjs/core
+- @nestjs/common: https://www.npmjs.com/package/@nestjs/common
+- reflect-metadata: https://www.npmjs.com/package/reflect-metadata
 
 ## 3. Software installations
 - [Video](https://www.youtube.com/watch?v=5mo113eTqhs&ab_channel=kamaz.v8)
