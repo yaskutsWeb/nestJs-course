@@ -23,3 +23,7 @@ https://docs.nestjs.com/
 
 # [Module 7. Persisting Data with TypeORM](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%207/Module%207.md)
 
+# [Module 8. Creating and Saving User Data](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%208/Module%208.md)
+
+# [Module 9. Custom Data Serialization](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%209/Module%209.md)
+
