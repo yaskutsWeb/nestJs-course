@@ -1,55 +1,41 @@
-# Module 1. The Basics of Nest
-## 1. Project Setup
-- [Video](https://youtu.be/c-b3E0vpaqY)
+# Module 3. Validating Request Data with Pipes
+## 1. Accessing Request Data with Decorators
+- [Video](https://youtu.be/dL6K5r9Z5rw)
 
-#### Source code: [Project Setup](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/1.%20Project%20Setup)
-
-#### Study Materials
-- Nest CLI Overview: https://docs.nestjs.com/cli/overview
-
-## 2. TypeScript Configuration
-- [Video](https://youtu.be/nxT9K29lmqc)
-
-#### Source code: [TypeScript Configuration](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/2.%20TypeScript%20Configuration)
+#### Source code: [Accessing Request Data with Decorators](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%203/1.%20Accessing%20Request%20Data%20with%20Decorators/messages)
 
 #### Study Materials
-- @nestjs/platform-express: https://www.npmjs.com/package/@nestjs/platform-express
-- @nestjs/core: https://www.npmjs.com/package/@nestjs/core
-- @nestjs/common: https://www.npmjs.com/package/@nestjs/common
-- reflect-metadata: https://www.npmjs.com/package/reflect-metadata
+- Nest Custom Decorators: https://docs.nestjs.com/custom-decorators
 
-## 3. Creating a Controller
-- [Video](https://youtu.be/8PeGLoz06KQ)
+## 2. Using Pipes for Validation
+- [Video](https://youtu.be/A0gDBXajMmM)
+
+#### Source code: [Using Pipes for Validation](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%203/2.%20Using%20Pipes%20for%20Validation/messages)
+
+#### Study Materials
+- Nest Pipes: https://docs.nestjs.com/pipes
+- Nest Validation: https://docs.nestjs.com/techniques/validation
+- Mastering Data Validation in NestJS: https://medium.com/@zahramohammadpour497/mastering-data-validation-in-nestjs-the-global-pipes-and-class-validator-duo-9bca2b134cf6
+
+## 3. Adding Validation Rules
+- [Video](https://youtu.be/UlPZ5Pumq_E)
   
-#### Source code: [Creating a Controller](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/3.%20Creating%20a%20Controller/scratch)
+#### Source code: [Adding Validation Rules](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%203/3.%20Adding%20Validation%20Rules/messages)
 
 #### Study Materials
-- Controllers: https://docs.nestjs.com/controllers
+- DTO explained in NestJS: https://medium.com/@yelinliu/dto-explained-in-nestjs-3a296498d77b
 
-## 4. Starting Up a Nest App
-- [Video](https://youtu.be/B_iPslCnRg0)
-
-#### Source code: [Starting Up a Nest App](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/4.%20Starting%20Up%20a%20Nest%20App/scratch)
+## 4. Behind the Scenes of Validation
+- [Video](https://youtu.be/CjicqJvrz9w)
 
 #### Study Materials
-- Modules: https://docs.nestjs.com/modules
-- NestFactory: https://koko8624.medium.com/nestjs-deep-dive-01-nestfactory-4a35d6e3b847
+- @nestjs/class-validator: https://www.npmjs.com/package/@nestjs/class-validator/v/0.13.1
+- @nestjs/class-transformer: https://www.npmjs.com/package/@nestjs/class-transformer
 
-## 5. File Naming Conventions
-- [Video](https://youtu.be/ywYugmAoMV8)
-
-#### Source code: [File Naming Conventions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/5.%20File%20Naming%20Conventions/scratch)
-
-## 6. Routing Decorators
-- [Video](https://youtu.be/CIwp1_aKQj0)
-
-#### Source code: [Routing Decorators](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%201/6.%20Routing%20Decorators/scratch)
-
-#### Study Materials
-- Popular Decorators used in nestJS: https://medium.com/@developerwhoismean/nestjs-episode-3-popular-decorators-used-in-nestjs-193ac8852598
-
+## 5. How Type Info is Preserved
+- [Video](https://youtu.be/jIE28eHbE7E)
 
 ##
-#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%202)
+#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%204/Module%204.md)
 #### [Return to contents](https://github.com/yaskutsWeb/nestJs-course/tree/master)
 ##
