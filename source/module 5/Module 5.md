@@ -22,7 +22,7 @@
 
 #### Source code: [Consuming Multiple Modules](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%205/5.%20Consuming%20Multiple%20Modules/di)
 
-## 6. 6. Modules Wrapup
+## 6. Modules Wrapup
 - [Video](https://youtu.be/HotZA6_7lFI)
 
 
