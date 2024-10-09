@@ -20,3 +20,6 @@ https://docs.nestjs.com/
 # [Module 5. Nest Architecture Organizing Code with Modules](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%205/Module%205.md)
 
 # [Module 6. Big Project Time](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%206/Module%206.md)
+
+# [Module 7. Persisting Data with TypeORM](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%207/Module%207.md)
+
