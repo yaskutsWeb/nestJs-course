@@ -1,0 +1,5 @@
+<p>In the upcoming lecture, we will be adding service methods to our <strong>users.services.ts</strong> file. There have been some breaking changes in the <a href="https://typeorm.io/changelog#breaking-changes-1" rel="noopener noreferrer" target="_blank">0.3.0 TypeORM</a>&nbsp;release which deprecates <strong>findBy</strong> and requires a small change to <strong>find</strong>.</p><p>Locate the <strong>findOne</strong> method and update the return to look like this:</p><pre class="prettyprint linenums">findOne(id: number) {
+  return this.repo.findOneBy({ id });
+}</pre><p>Locate the <strong>find</strong> method and update the return to look like this:</p><pre class="prettyprint linenums">find(email: string) {
+  return this.repo.find({ where: { email } });
+}</pre><p><br></p>
