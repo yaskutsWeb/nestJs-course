@@ -1,68 +1,62 @@
-# Module 4. Nest Architecture Services and Repositories
-## 1. Services and Repositories
-- [Video](https://youtu.be/HU8CC6wWiOc)
+# Module 7. Persisting Data with TypeORM
+## 1. Persistent Data with Nest
+- [Video](https://youtu.be/7ZI8YY8MrVk)
+
+#### Source code: [Persistent Data with Nest](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%207/1.%20Persistent%20Data%20with%20Nest/mycv)
 
 #### Study Materials
-- Nest Services: https://docs.nestjs.com/providers#services
-- Nest Repository Pattern: https://www.linkedin.com/pulse/implementing-repository-pattern-nestjs-nadeera-sampath/
-- Differences Between Repository and Service: https://www.baeldung.com/cs/repository-vs-service
+- Nest Database: https://docs.nestjs.com/techniques/database
+- SQL (TypeORM): https://docs.nestjs.com/recipes/sql-typeorm
 
-## 2. Implementing a Repository
-- [Video](https://youtu.be/tPE7zGKG7fE)
+## 2. Setting Up a Database Connection
+- [Video](https://youtu.be/K48wqMmmRzY)
 
-#### Source code: [Implementing a Repository](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/2.%20Implementing%20a%20Repository/messages)
+#### Source code: [Setting Up a Database Connection](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%207/2.%20Setting%20Up%20a%20Database%20Connection/mycv)
 
-## 3. Reading and Writing to a Storage File
-- [Video](https://youtu.be/AK2tCm9MKJE)
+#### Study Materials
+- Type ORM Module for NestJs: https://github.com/nestjs/typeorm
   
-#### Source code: [Reading and Writing to a Storage File](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/3.%20Reading%20and%20Writing%20to%20a%20Storage%20File/messages)
-
-## 4. Implementing a Service
-- [Video](https://youtu.be/MF8ny_guAMA)
-
-#### Source code: [Implementing a Service](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/4.%20Implementing%20a%20Service/messages)
-
-## 5. Manual Testing of the Controller
-- [Video](https://youtu.be/l3dS4Y65y58)
-
-#### Source code: [Manual Testing of the Controller](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/5.%20Manual%20Testing%20of%20the%20Controller/messages)
-
-## 6. Reporting Errors with Exceptions
-- [Video](https://youtu.be/cYyAKmwud5k)
-
-#### Source code: [Reporting Errors with Exceptions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/6.%20Reporting%20Errors%20with%20Exceptions/messages)
-
-#### Study Materials
-- Nest Exceptions: https://docs.nestjs.com/exception-filters
-- Understanding Exceptions in NestJS: https://medium.com/@developerwhoismean/understanding-exceptions-in-nestjs-6a2954ac4903
-
-## 7. Understanding Inversion of Control
-- [Video](https://youtu.be/n2jVE-uBZmg)
+## 3. Creating an Entity and Repository
+- [Video](https://youtu.be/Q_8Ej7cjXOI)
   
-#### Study Materials
-- Inversion of Control (IoC) Design principle: https://www.linkedin.com/pulse/inversion-control-ioc-design-principle-jahid-momin/
-- Nestjs & Inversion Of Control(IoC): https://dev.to/sergey_telpuk/nestjs-inversion-of-control-ioc-md2
-
-## 8. Introduction to Dependency Injection
-- [Video](https://www.youtube.com/watch?v=X0vjHOqd1EE&ab_channel=yaProduction)
+#### Source code: [Creating an Entity and Repository](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%207/3.%20Creating%20an%20Entity%20and%20Repository/mycv)
 
 #### Study Materials
-- Dependency injection and SOLID design principles: https://www.techtarget.com/searchapparchitecture/definition/dependency-injection
-- Custom providers: https://docs.nestjs.com/fundamentals/custom-providers
+- Type ORM official documentation: https://typeorm.io
+- Type ORM Entities: https://typeorm.io/entities
 
-## 9. Refactoring to Use Dependency Injection
-- [Video](https://youtu.be/XCJ4wKfzsZc)
+## 4. Viewing a DB's Contents
+- [Video](https://youtu.be/gAEcwijUyPA)
 
-#### Source code: [Refactoring to Use Dependency Injection](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/9.%20Refactoring%20to%20Use%20Dependency%20Injection/messages)
+#### Source code: [Viewing a DB's Contents](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%207/4.%20Viewing%20a%20DB's%20Contents/mycv)
+
+## 5. Understanding TypeORM Decorators
+- [Video](https://youtu.be/OdXz0Q1TKzw)
 
 #### Study Materials
-- Nest Modules: https://docs.nestjs.com/modules
+- Migrations Over Synchronize in TypeORM: https://medium.com/swlh/migrations-over-synchronize-in-typeorm-2c66bc008e74
 
-## 10. Few More Notes on DI
-- [Video](https://youtu.be/GbdXbg2d9LA)
+## 6. One Quick Note on Repositories
+- [Video](https://youtu.be/mHQJmJiRJPA)
+
+#### Study Materials
+- TypeORM Repisitory API: https://typeorm.io/repository-api
+
+## 7. A Few Extra Routes
+- [Video](https://youtu.be/ozi8Vp73eyo)
+
+## 8. Setting Up Body Validation
+- [Video](https://youtu.be/BH6iju15RPE)
+
+#### Source code: [Setting Up Body Validation](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%207/8.%20Setting%20Up%20Body%20Validation/mycv)
+
+## 9. Manual Route Testing
+- [Video](https://youtu.be/145bAILMXyE)
+
+#### Source code: [Manual Route Testing](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%207/9.%20Manual%20Route%20Testing/mycv)
 
 
 ##
-#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%205/Module%205.md)
+#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%208/Module%208.md)
 #### [Return to contents](https://github.com/yaskutsWeb/nestJs-course/tree/master)
 ##
