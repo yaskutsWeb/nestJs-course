@@ -17,6 +17,6 @@ https://docs.nestjs.com/
 
 # [Module 4. Nest Architecture Services and Repositories](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%204/Module%204.md)
 
-# [Module 5 - Nest Architecture Organizing Code with Modules](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%205/Module%205.md)
+# [Module 5. Nest Architecture Organizing Code with Modules](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%205/Module%205.md)
 
-# [Module 6 - Big Project Time](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%206/Module%206.md)
+# [Module 6. Big Project Time](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%206/Module%206.md)
