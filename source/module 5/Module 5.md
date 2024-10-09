@@ -17,10 +17,6 @@
 
 #### Source code: [More on DI Between Modules](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%205/4.%20More%20on%20DI%20Between%20Modules/di)
 
-#### Study Materials
-- Modules: https://docs.nestjs.com/modules
-- NestFactory: https://koko8624.medium.com/nestjs-deep-dive-01-nestfactory-4a35d6e3b847
-
 ## 5. Consuming Multiple Modules
 - [Video](https://youtu.be/al-B8Nc66Lc)
 
