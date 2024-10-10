@@ -1,68 +1,53 @@
-# Module 4. Nest Architecture Services and Repositories
-## 1. Services and Repositories
-- [Video](https://youtu.be/HU8CC6wWiOc)
+# Module 9. Custom Data Serialization
+## 1. Excluding Response Properties
+- [Video](https://youtu.be/7W_l68x06tA)
+
+#### Source code: [Excluding Response Properties](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%209/1.%20Excluding%20Response%20Properties/mycv)
 
 #### Study Materials
-- Nest Services: https://docs.nestjs.com/providers#services
-- Nest Repository Pattern: https://www.linkedin.com/pulse/implementing-repository-pattern-nestjs-nadeera-sampath/
-- Differences Between Repository and Service: https://www.baeldung.com/cs/repository-vs-service
+- Serialization NestJs: https://docs.nestjs.com/techniques/serialization
+- Interceptors NestJs: https://docs.nestjs.com/interceptors
+- How to serialize responses in nestjs: https://salwoch.hashnode.dev/how-to-serialize-responses-in-nestjs
 
-## 2. Implementing a Repository
-- [Video](https://youtu.be/tPE7zGKG7fE)
+## 2. Solution to Serialization
+- [Video](https://youtu.be/ns_HCA1-pgw)
 
-#### Source code: [Implementing a Repository](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/2.%20Implementing%20a%20Repository/messages)
+#### Study Materials
+- NestJS interceptors: Guide and use cases: https://medium.com/@prajapatijinesh28/nestjs-interceptors-guide-and-use-cases-6a24bbccf31c
 
-## 3. Reading and Writing to a Storage File
-- [Video](https://youtu.be/AK2tCm9MKJE)
+## 3. How to Build Interceptors
+- [Video](https://youtu.be/jGfy19x3wNc)
   
-#### Source code: [Reading and Writing to a Storage File](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/3.%20Reading%20and%20Writing%20to%20a%20Storage%20File/messages)
+#### Source code: [How to Build Interceptors](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%209/3.%20How%20to%20Build%20Interceptors/mycv)
 
-## 4. Implementing a Service
-- [Video](https://youtu.be/MF8ny_guAMA)
+## 4. Serialization in the Interceptor
+- [Video](https://youtu.be/Fol4Wo_BLC8)
 
-#### Source code: [Implementing a Service](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/4.%20Implementing%20a%20Service/messages)
+#### Source code: [Serialization in the Interceptor](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%209/4.%20Serialization%20in%20the%20Interceptor/mycv)
 
-## 5. Manual Testing of the Controller
-- [Video](https://youtu.be/l3dS4Y65y58)
+## 5. Customizing the Interceptor's DTO
+- [Video](https://youtu.be/5YkjwKaNyAA)
 
-#### Source code: [Manual Testing of the Controller](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/5.%20Manual%20Testing%20of%20the%20Controller/messages)
+#### Source code: [Customizing the Interceptor's DTO](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%209/5.%20Customizing%20the%20Interceptor's%20DTO/mycv)
 
-## 6. Reporting Errors with Exceptions
-- [Video](https://youtu.be/cYyAKmwud5k)
+## 6. Wrapping the Interceptor in a Decorator
+- [Video](https://youtu.be/xyqASLz-AHg)
 
-#### Source code: [Reporting Errors with Exceptions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/6.%20Reporting%20Errors%20with%20Exceptions/messages)
+#### Source code: [Wrapping the Interceptor in a Decorator](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%209/6.%20Wrapping%20the%20Interceptor%20in%20a%20Decorator/mycv)
 
-#### Study Materials
-- Nest Exceptions: https://docs.nestjs.com/exception-filters
-- Understanding Exceptions in NestJS: https://medium.com/@developerwhoismean/understanding-exceptions-in-nestjs-6a2954ac4903
+## 7. Controller-Wide Serialization
+- [Video](https://youtu.be/eL49ADV2p-Y)
 
-## 7. Understanding Inversion of Control
-- [Video](https://youtu.be/n2jVE-uBZmg)
-  
-#### Study Materials
-- Inversion of Control (IoC) Design principle: https://www.linkedin.com/pulse/inversion-control-ioc-design-principle-jahid-momin/
-- Nestjs & Inversion Of Control(IoC): https://dev.to/sergey_telpuk/nestjs-inversion-of-control-ioc-md2
+#### Source code: [Controller-Wide Serialization](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%209/7.%20Controller-Wide%20Serialization/mycv)
 
-## 8. Introduction to Dependency Injection
-- [Video](https://www.youtube.com/watch?v=X0vjHOqd1EE&ab_channel=yaProduction)
+## 8. A Bit of Type Safety Around Serialize
+- [Video](https://youtu.be/m9Os3FSNIws)
 
-#### Study Materials
-- Dependency injection and SOLID design principles: https://www.techtarget.com/searchapparchitecture/definition/dependency-injection
-- Custom providers: https://docs.nestjs.com/fundamentals/custom-providers
+#### Source code: [A Bit of Type Safety Around Serialize](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%209/8.%20A%20Bit%20of%20Type%20Safety%20Around%20Serialize/mycv)
 
-## 9. Refactoring to Use Dependency Injection
-- [Video](https://youtu.be/XCJ4wKfzsZc)
-
-#### Source code: [Refactoring to Use Dependency Injection](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/9.%20Refactoring%20to%20Use%20Dependency%20Injection/messages)
-
-#### Study Materials
-- Nest Modules: https://docs.nestjs.com/modules
-
-## 10. Few More Notes on DI
-- [Video](https://youtu.be/GbdXbg2d9LA)
 
 
 ##
-#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%205/Module%205.md)
+#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2010/Module%2010.md)
 #### [Return to contents](https://github.com/yaskutsWeb/nestJs-course/tree/master)
 ##
