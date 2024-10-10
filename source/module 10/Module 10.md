@@ -112,6 +112,6 @@
 - Guards: https://docs.nestjs.com/guards
 
 ##
-#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2010.md)
+#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2011.md)
 #### [Return to contents](https://github.com/yaskutsWeb/nestJs-course/tree/master)
 ##
