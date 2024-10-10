@@ -1,0 +1,8 @@
+<p>Due to breaking changes in the Jest library, we will need to modify our tests to avoid the following errors:</p><p><em>Test functions cannot both take a 'done' callback and return something. Either use a 'done' callback, or return a promise.</em></p><p>This was first raised in the QA&nbsp;<a href="https://www.udemy.com/course/nestjs-the-complete-developers-guide/learn/lecture/27443114#questions/15456608" rel="noopener noreferrer" target="_blank">here</a>.</p><p>Find the <strong>src/users/auth.service.spec.ts </strong>file and make the following changes:</p><p>1) Add Import:</p><pre class="prettyprint linenums">import { BadRequestException } from '@nestjs/common';</pre><p><br></p><p>2) Refactor <strong>'throws an error if user signs up'</strong> test to remove try/catch and done callback:</p><pre class="prettyprint linenums">  it('throws an error if user signs up with email that is in use', async () =&gt; {
+    fakeUsersService.find = () =&gt;
+
+      Promise.resolve([{ id: 1, email: 'a', password: '1' } as User]);
+    await expect(service.signup('asdf@asdf.com', 'asdf')).rejects.toThrow(
+      BadRequestException,
+    );
+  });</pre>
