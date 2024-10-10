@@ -28,3 +28,5 @@ https://docs.nestjs.com/
 # [Module 9. Custom Data Serialization](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%209/Module%209.md)
 
 # [Module 10. Authentication From Scratch](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2010/Module%2010.md)
+
+# [Module 11. Getting Started with Unit Testing](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2011.md)
