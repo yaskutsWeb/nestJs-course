@@ -1,0 +1,6 @@
+<p>In the upcoming lecture, we will be adding a changeApproval method to our <strong>reports.services.ts</strong> file. There have been some breaking changes in the <a href="https://typeorm.io/changelog#breaking-changes-1" rel="noopener noreferrer" target="_blank">0.3.0 TypeORM</a> release which requires a small change.</p><p>This issue was first discovered in the QA&nbsp;<a href="https://www.udemy.com/course/nestjs-the-complete-developers-guide/learn/lecture/27443258#questions/17347918" rel="noopener noreferrer" target="_blank">here</a>.</p><p>Find the <strong>changeApproval</strong> method and refactor findOne to use a 'where' clause and return an integer:</p><p><br></p><pre class="prettyprint linenums">  async changeApproval(id: string, approved: boolean) {
+    const report = await this.repo.findOne({ where: { id: parseInt(id) } });
+
+    ...
+
+  }</pre><p><br></p>
