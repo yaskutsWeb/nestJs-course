@@ -1,68 +1,64 @@
-# Module 4. Nest Architecture Services and Repositories
-## 1. Services and Repositories
-- [Video](https://youtu.be/HU8CC6wWiOc)
+# Module 14. Relations with TypeORM
+## 1. Back to Reports
+- [Video](https://youtu.be/Yj9_BB-qAWU)
 
-#### Study Materials
-- Nest Services: https://docs.nestjs.com/providers#services
-- Nest Repository Pattern: https://www.linkedin.com/pulse/implementing-repository-pattern-nestjs-nadeera-sampath/
-- Differences Between Repository and Service: https://www.baeldung.com/cs/repository-vs-service
+## 2. Adding Properties to Reports
+- [Video](https://youtu.be/8UScjLeCtbQ)
 
-## 2. Implementing a Repository
-- [Video](https://youtu.be/tPE7zGKG7fE)
+#### Source code: [Adding Properties to Reports](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2014/2.%20Adding%20Properties%20to%20Reports/mycv)
 
-#### Source code: [Implementing a Repository](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/2.%20Implementing%20a%20Repository/messages)
-
-## 3. Reading and Writing to a Storage File
-- [Video](https://youtu.be/AK2tCm9MKJE)
+## 3. A DTO for Report Creation
+- [Video](https://youtu.be/fTsy7Q0m2bE)
   
-#### Source code: [Reading and Writing to a Storage File](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/3.%20Reading%20and%20Writing%20to%20a%20Storage%20File/messages)
+#### Source code: [A DTO for Report Creation](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2014/3.%20A%20DTO%20for%20Report%20Creation/mycv)
 
-## 4. Implementing a Service
-- [Video](https://youtu.be/MF8ny_guAMA)
+## 4. Receiving Report Creation Requests
+- [Video](https://youtu.be/h_qi0ZTP9P8)
 
-#### Source code: [Implementing a Service](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/4.%20Implementing%20a%20Service/messages)
+## 5. Saving a Report with the Reports Service
+- [Video](https://youtu.be/Kt29SWB-pKo)
 
-## 5. Manual Testing of the Controller
-- [Video](https://youtu.be/l3dS4Y65y58)
+#### Source code: [Saving a Report with the Reports Service](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2014/5.%20Saving%20a%20Report%20with%20the%20Reports%20Service/mycv)
 
-#### Source code: [Manual Testing of the Controller](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/5.%20Manual%20Testing%20of%20the%20Controller/messages)
+## 6. Testing Report Creation
+- [Video](https://youtu.be/6k7EpFaOtEU)
 
-## 6. Reporting Errors with Exceptions
-- [Video](https://youtu.be/cYyAKmwud5k)
+#### Source code: [Testing Report Creation](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2014/6.%20Testing%20Report%20Creation/mycv)
 
-#### Source code: [Reporting Errors with Exceptions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/6.%20Reporting%20Errors%20with%20Exceptions/messages)
+## 7. Building Associations
+- [Video](https://youtu.be/6PCKrBaY8wM)
 
-#### Study Materials
-- Nest Exceptions: https://docs.nestjs.com/exception-filters
-- Understanding Exceptions in NestJS: https://medium.com/@developerwhoismean/understanding-exceptions-in-nestjs-6a2954ac4903
+## 8. Types of Associations
+- [Video](https://youtu.be/qRu4bp21kNk)
 
-## 7. Understanding Inversion of Control
-- [Video](https://youtu.be/n2jVE-uBZmg)
-  
-#### Study Materials
-- Inversion of Control (IoC) Design principle: https://www.linkedin.com/pulse/inversion-control-ioc-design-principle-jahid-momin/
-- Nestjs & Inversion Of Control(IoC): https://dev.to/sergey_telpuk/nestjs-inversion-of-control-ioc-md2
+## 9. The ManyToOne and OneToMany Decorators
+- [Video](https://youtu.be/2-k6GH5VAmA)
 
-## 8. Introduction to Dependency Injection
-- [Video](https://www.youtube.com/watch?v=X0vjHOqd1EE&ab_channel=yaProduction)
+#### Source code: [The ManyToOne and OneToMany Decorators](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2014/9.%20The%20ManyToOne%20and%20OneToMany%20Decorators)
 
-#### Study Materials
-- Dependency injection and SOLID design principles: https://www.techtarget.com/searchapparchitecture/definition/dependency-injection
-- Custom providers: https://docs.nestjs.com/fundamentals/custom-providers
+> [!CAUTION]
+> [Important Note About Deleting Database - Do Not Skip](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2014/9.%20The%20ManyToOne%20and%20OneToMany%20Decorators/9.%20Important%20Note%20About%20Deleting%20Database%20-%20Do%20Not%20Skip.html)
 
-## 9. Refactoring to Use Dependency Injection
-- [Video](https://youtu.be/XCJ4wKfzsZc)
+## 10. More on Decorators
+- [Video](https://youtu.be/mrWXoH6VV54)
 
-#### Source code: [Refactoring to Use Dependency Injection](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/9.%20Refactoring%20to%20Use%20Dependency%20Injection/messages)
+## 11. Setting up the Association
+- [Video](https://youtu.be/3x2sbETzuT8)
 
-#### Study Materials
-- Nest Modules: https://docs.nestjs.com/modules
+#### Source code: [Setting up the Association](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2014/11.%20Setting%20up%20the%20Association/mycv)
 
-## 10. Few More Notes on DI
-- [Video](https://youtu.be/GbdXbg2d9LA)
+## 12. Formatting the Report Response
+- [Video](https://youtu.be/ZN32I1XhFNU)
+
+## 13. Transforming Properties with a DTO
+- [Video](https://youtu.be/mNxF2r3D8uA)
+
+#### Source code: [Transforming Properties with a DTO](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2014/13.%20Transforming%20Properties%20with%20a%20DTO/mycv)
+
+
 
 
 ##
-#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%205/Module%205.md)
+#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2015/Module%2015.md)
 #### [Return to contents](https://github.com/yaskutsWeb/nestJs-course/tree/master)
 ##
