@@ -1,68 +1,66 @@
-# Module 4. Nest Architecture Services and Repositories
-## 1. Services and Repositories
-- [Video](https://youtu.be/HU8CC6wWiOc)
+# Module 8. Creating and Saving User Data
+## 1. Creating and Saving a User
+- [Video](https://youtu.be/o9vCyGK_rTc)
+
+#### Source code: [Creating and Saving a User](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%208/1.%20Creating%20and%20Saving%20a%20User/mycv)
 
 #### Study Materials
-- Nest Services: https://docs.nestjs.com/providers#services
-- Nest Repository Pattern: https://www.linkedin.com/pulse/implementing-repository-pattern-nestjs-nadeera-sampath/
-- Differences Between Repository and Service: https://www.baeldung.com/cs/repository-vs-service
+- Dependency Inversion Principle in NestJS with TypeORM: https://yvanflorian.medium.com/dependency-inversion-principle-in-nestjs-with-typeorm-6e52f2dcf830
 
-## 2. Implementing a Repository
-- [Video](https://youtu.be/tPE7zGKG7fE)
+## 2. Quick Breather and Review
+- [Video](https://youtu.be/LNf3oU0Nfy4)
 
-#### Source code: [Implementing a Repository](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/2.%20Implementing%20a%20Repository/messages)
-
-## 3. Reading and Writing to a Storage File
-- [Video](https://youtu.be/AK2tCm9MKJE)
+## 3. More on Create vs Save
+- [Video](https://youtu.be/23ZuAXTB34U)
   
-#### Source code: [Reading and Writing to a Storage File](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/3.%20Reading%20and%20Writing%20to%20a%20Storage%20File/messages)
-
-## 4. Implementing a Service
-- [Video](https://youtu.be/MF8ny_guAMA)
-
-#### Source code: [Implementing a Service](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/4.%20Implementing%20a%20Service/messages)
-
-## 5. Manual Testing of the Controller
-- [Video](https://youtu.be/l3dS4Y65y58)
-
-#### Source code: [Manual Testing of the Controller](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/5.%20Manual%20Testing%20of%20the%20Controller/messages)
-
-## 6. Reporting Errors with Exceptions
-- [Video](https://youtu.be/cYyAKmwud5k)
-
-#### Source code: [Reporting Errors with Exceptions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/6.%20Reporting%20Errors%20with%20Exceptions/messages)
+#### Source code: [More on Create vs Save](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%208/3.%20More%20on%20Create%20vs%20Save/mycv)
 
 #### Study Materials
-- Nest Exceptions: https://docs.nestjs.com/exception-filters
-- Understanding Exceptions in NestJS: https://medium.com/@developerwhoismean/understanding-exceptions-in-nestjs-6a2954ac4903
+- Entity Listeners and Subscribers: https://orkhan.gitbook.io/typeorm/docs/listeners-and-subscribers
 
-## 7. Understanding Inversion of Control
-- [Video](https://youtu.be/n2jVE-uBZmg)
-  
+## 4. Querying for Data
+- [Video](https://youtu.be/J8rL20LdKUo)
+
+#### Source code: [Querying for Data](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%208/4.%20Querying%20for%20Data)
+
+> [!CAUTION]
+> [Required Update for find and findOne Methods](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%208/4.%20Querying%20for%20Data/5.%20Required%20Update%20for%20find%20and%20findOne%20Methods.html) 
+
+## 5. Updating Data
+- [Video](https://youtu.be/O9Ijnd-r7MY)
+
+#### Source code: [Updating Data](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%208/5.%20Updating%20Data/mycv)
+
+## 6. Removing Users
+- [Video](https://youtu.be/Q0jjDHqf7fk)
+
+#### Source code: [Removing Users](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%208/6.%20Removing%20Users/mycv)
+
+## 7. Finding and Filtering Records
+- [Video](https://youtu.be/xvememcNu0U)
+
+#### Source code: [Finding and Filtering Records](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%208/7.%20Finding%20and%20Filtering%20Records/mycv)
+
+## 8. Removing Records
+- [Video](https://youtu.be/3bqX5zuGfUQ)
+
+#### Source code: [Removing Records](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%208/8.%20Removing%20Records/mycv)
+
+## 9. Updating Records
+- [Video](https://youtu.be/jltWw2m2wpE)
+
+#### Source code: [Updating Records](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%208/9.%20Updating%20Records/mycv)
+
+## 10. A Few Notes on Exceptions
+- [Video](https://youtu.be/5r43-_kwgUw)
+
+#### Source code: [A Few Notes on Exceptions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%208/10.%20A%20Few%20Notes%20on%20Exceptions/mycv)
+
 #### Study Materials
-- Inversion of Control (IoC) Design principle: https://www.linkedin.com/pulse/inversion-control-ioc-design-principle-jahid-momin/
-- Nestjs & Inversion Of Control(IoC): https://dev.to/sergey_telpuk/nestjs-inversion-of-control-ioc-md2
-
-## 8. Introduction to Dependency Injection
-- [Video](https://www.youtube.com/watch?v=X0vjHOqd1EE&ab_channel=yaProduction)
-
-#### Study Materials
-- Dependency injection and SOLID design principles: https://www.techtarget.com/searchapparchitecture/definition/dependency-injection
-- Custom providers: https://docs.nestjs.com/fundamentals/custom-providers
-
-## 9. Refactoring to Use Dependency Injection
-- [Video](https://youtu.be/XCJ4wKfzsZc)
-
-#### Source code: [Refactoring to Use Dependency Injection](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/9.%20Refactoring%20to%20Use%20Dependency%20Injection/messages)
-
-#### Study Materials
-- Nest Modules: https://docs.nestjs.com/modules
-
-## 10. Few More Notes on DI
-- [Video](https://youtu.be/GbdXbg2d9LA)
+- Mastering Error Handling in Nest.js: https://chintanonweb.medium.com/mastering-error-handling-in-nest-js-a-comprehensive-guide-54856ef548ec
 
 
 ##
-#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%205/Module%205.md)
+#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%209)
 #### [Return to contents](https://github.com/yaskutsWeb/nestJs-course/tree/master)
 ##
