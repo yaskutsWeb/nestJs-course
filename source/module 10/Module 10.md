@@ -1,68 +1,117 @@
-# Module 4. Nest Architecture Services and Repositories
-## 1. Services and Repositories
-- [Video](https://youtu.be/HU8CC6wWiOc)
+# Module 10. Authentication From Scratch
+## 1. Authentication Overview
+- [Video](https://youtu.be/YIIWBmMOZaM)
 
 #### Study Materials
-- Nest Services: https://docs.nestjs.com/providers#services
-- Nest Repository Pattern: https://www.linkedin.com/pulse/implementing-repository-pattern-nestjs-nadeera-sampath/
-- Differences Between Repository and Service: https://www.baeldung.com/cs/repository-vs-service
+- Authentication: https://docs.nestjs.com/security/authentication
+- Authorization: https://docs.nestjs.com/security/authorization
+- Encryption and Hashing: https://docs.nestjs.com/security/encryption-and-hashing
 
-## 2. Implementing a Repository
-- [Video](https://youtu.be/tPE7zGKG7fE)
+## 2. Reminder on Service Setup
+- [Video](https://youtu.be/7VZAsbsUzWw)
 
-#### Source code: [Implementing a Repository](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/2.%20Implementing%20a%20Repository/messages)
+#### Source code: [Reminder on Service Setup](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/2.%20Reminder%20on%20Service%20Setup/mycv)
 
-## 3. Reading and Writing to a Storage File
-- [Video](https://youtu.be/AK2tCm9MKJE)
+## 3. Implementing Signup Functionality
+- [Video](https://youtu.be/K7MBu9XWjhg)
   
-#### Source code: [Reading and Writing to a Storage File](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/3.%20Reading%20and%20Writing%20to%20a%20Storage%20File/messages)
+#### Source code: [Implementing Signup Functionality](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/3.%20Implementing%20Signup%20Functionality/mycv)
 
-## 4. Implementing a Service
-- [Video](https://youtu.be/MF8ny_guAMA)
-
-#### Source code: [Implementing a Service](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/4.%20Implementing%20a%20Service/messages)
-
-## 5. Manual Testing of the Controller
-- [Video](https://youtu.be/l3dS4Y65y58)
-
-#### Source code: [Manual Testing of the Controller](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/5.%20Manual%20Testing%20of%20the%20Controller/messages)
-
-## 6. Reporting Errors with Exceptions
-- [Video](https://youtu.be/cYyAKmwud5k)
-
-#### Source code: [Reporting Errors with Exceptions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/6.%20Reporting%20Errors%20with%20Exceptions/messages)
+## 4. [Optional] Understanding Password Hashing
+- [Video](https://youtu.be/V-fXT5T5RO8)
 
 #### Study Materials
-- Nest Exceptions: https://docs.nestjs.com/exception-filters
-- Understanding Exceptions in NestJS: https://medium.com/@developerwhoismean/understanding-exceptions-in-nestjs-6a2954ac4903
+- Encrypting Passwords in NestJS: https://medium.com/@awaisshaikh94/encrypting-passwords-in-nestjs-with-the-robust-hashing-mechanism-of-bcrypt-e052c7a499a3
 
-## 7. Understanding Inversion of Control
-- [Video](https://youtu.be/n2jVE-uBZmg)
+## 5. Salting and Hashing the Password
+- [Video](https://youtu.be/R-IEyWPunxg)
+
+#### Source code: [Salting and Hashing the Password](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/5.%20Salting%20and%20Hashing%20the%20Password/mycv)
+
+#### Study Materials
+- @coniface/nestjs-scrypt: https://www.npmjs.com/package/@coniface/nestjs-scrypt
+
+## 6. Creating a User
+- [Video](https://youtu.be/c7hoC7y3KOs)
+
+#### Source code: [Creating a User](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/6.%20Creating%20a%20User/mycv)
+
+## 7. Handling User Sign In
+- [Video](https://youtu.be/qaMcW0_azbg)
   
-#### Study Materials
-- Inversion of Control (IoC) Design principle: https://www.linkedin.com/pulse/inversion-control-ioc-design-principle-jahid-momin/
-- Nestjs & Inversion Of Control(IoC): https://dev.to/sergey_telpuk/nestjs-inversion-of-control-ioc-md2
+#### Source code: [Handling User Sign In](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/7.%20Handling%20User%20Sign%20In/mycv)
 
-## 8. Introduction to Dependency Injection
-- [Video](https://www.youtube.com/watch?v=X0vjHOqd1EE&ab_channel=yaProduction)
+## 8. Setting up Sessions
+- [Video](https://youtu.be/JkE5OaZqxiU)
 
-#### Study Materials
-- Dependency injection and SOLID design principles: https://www.techtarget.com/searchapparchitecture/definition/dependency-injection
-- Custom providers: https://docs.nestjs.com/fundamentals/custom-providers
-
-## 9. Refactoring to Use Dependency Injection
-- [Video](https://youtu.be/XCJ4wKfzsZc)
-
-#### Source code: [Refactoring to Use Dependency Injection](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/9.%20Refactoring%20to%20Use%20Dependency%20Injection/messages)
+#### Source code: [Setting up Sessions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/8.%20Setting%20up%20Sessions/mycv)
 
 #### Study Materials
-- Nest Modules: https://docs.nestjs.com/modules
+- Cookies: https://docs.nestjs.com/techniques/cookies
 
-## 10. Few More Notes on DI
-- [Video](https://youtu.be/GbdXbg2d9LA)
+## 9. Changing and Fetching Session Data
+- [Video](https://youtu.be/CmI2mhF8-MQ)
 
+#### Source code: [Changing and Fetching Session Data](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/9.%20Changing%20and%20Fetching%20Session%20Data/mycv)
+
+## 10. Signing in a User
+- [Video](https://youtu.be/I9Tai-kzIjA)
+
+#### Source code: [Signing in a User](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/10.%20Signing%20in%20a%20User/mycv)
+
+#### Study Materials
+- Session: https://docs.nestjs.com/techniques/session
+
+## 11. Getting the Current User
+- [Video](https://youtu.be/cA79f2UljXQ)
+
+#### Source code: [Getting the Current User](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/11.%20Getting%20the%20Current%20User/mycv)
+
+## 12. Signing Out a User
+- [Video](https://youtu.be/5z8RLywRFBg)
+  
+#### Source code: [Signing Out a User](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/12.%20Signing%20Out%20a%20User/mycv)
+
+## 13. Two Automation Tools
+- [Video](https://youtu.be/fV8E4OAk4j8)
+
+## 14. Custom Param Decorators
+- [Video](https://youtu.be/y8qEA4C5_I4)
+
+#### Source code: [Custom Param Decorators](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/14.%20Custom%20Param%20Decorators/mycv)
+
+## 15. Why a Decorator and Interceptor
+- [Video](https://youtu.be/CYjTz-xpFS0)
+
+#### Source code: [Why a Decorator and Interceptor](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/15.%20Why%20a%20Decorator%20and%20Interceptor/mycv)
+
+## 16. Communicating from Interceptor to Decorator
+- [Video](https://youtu.be/TMIqYGkzV34)
+  
+#### Source code: [Communicating from Interceptor to Decorator](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/16.%20Communicating%20from%20Interceptor%20to%20Decorator)
+
+> [!CAUTION]
+> [Small Fix for CurrentUserInterceptor](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2010/16.%20Communicating%20from%20Interceptor%20to%20Decorator/16.%20Small%20Fix%20for%20CurrentUserInterceptor.html)
+
+## 17. Connecting an Interceptor to Dependency Injection
+- [Video](https://youtu.be/lkqPD1xYmq8)
+
+#### Source code: [Connecting an Interceptor to Dependency Injection](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/17.%20Connecting%20an%20Interceptor%20to%20Dependency%20Injection/mycv)
+
+## 18. Globally Scoped Interceptors
+- [Video](https://youtu.be/hjpGQxYu7J8)
+
+#### Source code: [Globally Scoped Interceptors](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/18.%20Globally%20Scoped%20Interceptors/mycv)
+
+## 19. Preventing Access with Authentication Guards
+- [Video](https://youtu.be/7zWdlaGfhaM)
+
+#### Source code: [Preventing Access with Authentication Guards](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2010/19.%20Preventing%20Access%20with%20Authentication%20Guards/mycv)
+
+#### Study Materials
+- Guards: https://docs.nestjs.com/guards
 
 ##
-#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%205/Module%205.md)
+#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2010.md)
 #### [Return to contents](https://github.com/yaskutsWeb/nestJs-course/tree/master)
 ##
