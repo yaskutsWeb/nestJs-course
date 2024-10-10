@@ -33,7 +33,7 @@ https://docs.nestjs.com/
 
 # [Module 12. Integration Testing](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2012/Module%2012.md)
 
-# [Module 13. Managing App Configuration](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2013)
+# [Module 13. Managing App Configuration](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2013/Module%2013.md)
 
 # [Module 14. Relations with TypeORM](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2011.md)
 
