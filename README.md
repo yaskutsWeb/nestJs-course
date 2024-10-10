@@ -31,7 +31,7 @@ https://docs.nestjs.com/
 
 # [Module 11. Getting Started with Unit Testing](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2011.md)
 
-# [Module 12. Integration Testing](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2011.md)
+# [Module 12. Integration Testing](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2012/Module%2012.md)
 
 # [Module 13. Managing App Configuration](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2011.md)
 
