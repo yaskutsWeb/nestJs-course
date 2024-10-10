@@ -8,6 +8,7 @@
 - Serialization NestJs: https://docs.nestjs.com/techniques/serialization
 - Interceptors NestJs: https://docs.nestjs.com/interceptors
 - How to serialize responses in nestjs: https://salwoch.hashnode.dev/how-to-serialize-responses-in-nestjs
+- Guards: https://docs.nestjs.com/guards
 
 ## 2. Solution to Serialization
 - [Video](https://youtu.be/ns_HCA1-pgw)
