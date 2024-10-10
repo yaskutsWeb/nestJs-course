@@ -35,10 +35,10 @@ https://docs.nestjs.com/
 
 # [Module 13. Managing App Configuration](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2013/Module%2013.md)
 
-# [Module 14. Relations with TypeORM](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2011.md)
+# [Module 14. Relations with TypeORM](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2014/Module%2014.md)
 
-# [Module 15. A Basic Permissions System](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2011.md)
+# [Module 15. A Basic Permissions System](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2015/Module%2015.md)
 
-# [Module 16. Query Builders with TypeORM](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2011.md)
+# [Module 16. Query Builders with TypeORM](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2016/Module%2016.md)
 
-# [Module 17.  Production Deployment](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2011/Module%2011.md)
+# [Module 17.  Production Deployment](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2017/Module%2017.md)
