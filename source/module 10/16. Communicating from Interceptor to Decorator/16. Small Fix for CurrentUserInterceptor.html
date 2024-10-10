@@ -1,0 +1,1 @@
+<p>Don't skip this note! A small fix is needed in the CurrentUserInterceptor.</p><p>Please change:</p><p><code>const { userId } = request.session;</code></p><p>To the following:</p><p><code><em>const { userId } = </em><strong><em>request.session || {};</em></strong></code> </p>
