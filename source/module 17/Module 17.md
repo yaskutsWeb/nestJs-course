@@ -1,68 +1,72 @@
-# Module 4. Nest Architecture Services and Repositories
-## 1. Services and Repositories
-- [Video](https://youtu.be/HU8CC6wWiOc)
+# Module 17. Production Deployment
+## 1. The Path to Production
+- [Video](https://youtu.be/tB6_VNehPB8)
 
 #### Study Materials
-- Nest Services: https://docs.nestjs.com/providers#services
-- Nest Repository Pattern: https://www.linkedin.com/pulse/implementing-repository-pattern-nestjs-nadeera-sampath/
-- Differences Between Repository and Service: https://www.baeldung.com/cs/repository-vs-service
+- Migrations TypeORM: https://orkhan.gitbook.io/typeorm/docs/migrations
+- Deploying a Nest App: https://adaptable.io/docs/app-guides/deploy-nestjs-app
+- TypeORM CLI: https://orkhan.gitbook.io/typeorm/docs/using-cli
 
-## 2. Implementing a Repository
-- [Video](https://youtu.be/tPE7zGKG7fE)
+## 2. Providing the Cookie Key
+- [Video](https://youtu.be/jBfRo8ZVnMI)
 
-#### Source code: [Implementing a Repository](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/2.%20Implementing%20a%20Repository/messages)
+#### Source code: [Providing the Cookie Key](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2017/2.%20Providing%20the%20Cookie%20Key)
 
-## 3. Reading and Writing to a Storage File
-- [Video](https://youtu.be/AK2tCm9MKJE)
-  
-#### Source code: [Reading and Writing to a Storage File](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/3.%20Reading%20and%20Writing%20to%20a%20Storage%20File/messages)
+## 3. Understanding the Synchronize Flag
+- [Video](https://youtu.be/g9NLo6anFhk)
 
-## 4. Implementing a Service
-- [Video](https://youtu.be/MF8ny_guAMA)
+## 4. The Dangers of Synchronize
+- [Video](https://youtu.be/sx6VKqRAHiE)
 
-#### Source code: [Implementing a Service](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/4.%20Implementing%20a%20Service/messages)
+## 5. The Theory Behind Migrations
+- [Video](https://youtu.be/6Owif7zivRs)
 
-## 5. Manual Testing of the Controller
-- [Video](https://youtu.be/l3dS4Y65y58)
+## 6. Headaches with Config Management
+- [Video](https://youtu.be/oF_MJesEBjM)
 
-#### Source code: [Manual Testing of the Controller](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/5.%20Manual%20Testing%20of%20the%20Controller/messages)
+## 7. TypeORM and Nest Config is Great
+- [Video](https://youtu.be/UhwEBiDvdr0)
 
-## 6. Reporting Errors with Exceptions
-- [Video](https://youtu.be/cYyAKmwud5k)
+## 8. Env-Specific Database Config
+- [Video](https://youtu.be/lE6TGUf92DA)
 
-#### Source code: [Reporting Errors with Exceptions](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/6.%20Reporting%20Errors%20with%20Exceptions/messages)
+#### Source code: [Env-Specific Database Config](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2017/8.%20Env-Specific%20Database%20Config)
 
-#### Study Materials
-- Nest Exceptions: https://docs.nestjs.com/exception-filters
-- Understanding Exceptions in NestJS: https://medium.com/@developerwhoismean/understanding-exceptions-in-nestjs-6a2954ac4903
+## 9. Installing the TypeORM CLI
+- [Video](https://youtu.be/frpIK0hHX88)
 
-## 7. Understanding Inversion of Control
-- [Video](https://youtu.be/n2jVE-uBZmg)
-  
-#### Study Materials
-- Inversion of Control (IoC) Design principle: https://www.linkedin.com/pulse/inversion-control-ioc-design-principle-jahid-momin/
-- Nestjs & Inversion Of Control(IoC): https://dev.to/sergey_telpuk/nestjs-inversion-of-control-ioc-md2
+#### Source code: [Installing the TypeORM CLI](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2017/9.%20Installing%20the%20TypeORM%20CLI)
 
-## 8. Introduction to Dependency Injection
-- [Video](https://www.youtube.com/watch?v=X0vjHOqd1EE&ab_channel=yaProduction)
+## 10. Generating and Running Migrations
+- [Video](https://youtu.be/-i3YRF9gxo4)
 
-#### Study Materials
-- Dependency injection and SOLID design principles: https://www.techtarget.com/searchapparchitecture/definition/dependency-injection
-- Custom providers: https://docs.nestjs.com/fundamentals/custom-providers
+> [!CAUTION]
+> [Required Migration Update for Production](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%2017/10.%20Generating%20and%20Running%20Migrations/10.%20Required%20Migration%20Update%20for%20Production.html)
 
-## 9. Refactoring to Use Dependency Injection
-- [Video](https://youtu.be/XCJ4wKfzsZc)
+#### Source code: [Generating and Running Migrations](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2017/10.%20Generating%20and%20Running%20Migrations)
 
-#### Source code: [Refactoring to Use Dependency Injection](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%204/9.%20Refactoring%20to%20Use%20Dependency%20Injection/messages)
+## 11. Running Migrations During E2E Tests
+- [Video](https://youtu.be/PTG6rhovRmw)
 
-#### Study Materials
-- Nest Modules: https://docs.nestjs.com/modules
+#### Source code: [Running Migrations During E2E Tests](https://github.com/yaskutsWeb/nestJs-course/tree/master/source/module%2017/11.%20Running%20Migrations%20During%20E2E%20Tests)
 
-## 10. Few More Notes on DI
-- [Video](https://youtu.be/GbdXbg2d9LA)
+## 12. Production DB Config
+- [Video](https://youtu.be/ItNPX8RrEwg)
 
+## 13. Heroku CLI Setup Instructions
+> [!IMPORTANT]  
+> We are going to use the Heroku CLI to deploy our application.
+> 
+> Please follow the instructions here https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up to > set up the Heroku CLI on your machine.
+
+The next video will be making use of this CLI, so, set it up right away.
+
+## 14. Heroku Specific Project Config
+- [Video](https://youtu.be/48I6xHXHRzE)
+
+## 15. Deploying the App
+- [Video](https://youtu.be/rdmQMNGt0wI)
 
 ##
-#### [Next Module](https://github.com/yaskutsWeb/nestJs-course/blob/master/source/module%205/Module%205.md)
 #### [Return to contents](https://github.com/yaskutsWeb/nestJs-course/tree/master)
 ##
